@@ -1,0 +1,12 @@
+mode: security
+
+min_inline_comment_confidence: 0.9
+max_inline_comments: 3
+summary_max_chunks: 8
+
+ignored_paths:
+  - docs/
+  - migrations/
+  - generated/
+  - dist/
+  - build/
