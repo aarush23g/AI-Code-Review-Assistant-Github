@@ -1,4 +1,4 @@
-# AI Code Review Assistant
+### AI Code Review Assistant
 
 An AI-powered GitHub pull request review assistant that performs first-pass reviews on changed code, generates concise PR summaries, and posts selective high-confidence inline comments.
 
