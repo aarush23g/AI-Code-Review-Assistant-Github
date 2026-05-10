@@ -18,9 +18,7 @@ An AI-powered GitHub pull request review assistant that performs first-pass revi
 - Duplicate summary comment updates
 - 56 automated tests
 
-## Architecture
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Local Setup
 
