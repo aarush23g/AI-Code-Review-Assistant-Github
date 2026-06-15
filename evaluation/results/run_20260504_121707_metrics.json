@@ -1,0 +1,132 @@
+{
+  "run_id": "run_20260504_121707",
+  "model": "deepseek-ai/deepseek-v4-flash",
+  "mode": "security",
+  "dataset_size": {
+    "vulnerable": 59,
+    "safe": 25
+  },
+  "classification": {
+    "true_positives": 0,
+    "false_negatives": 59,
+    "false_positives": 0,
+    "true_negatives": 25
+  },
+  "detection_rate_recall": 0.0,
+  "false_positive_rate": 0.0,
+  "precision": 0.0,
+  "f1_score": 0.0,
+  "avg_line_accuracy": 0.0,
+  "confidence_calibration": {
+    "low": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.0-0.3",
+      "accuracy": 0.0
+    },
+    "medium": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.3-0.6",
+      "accuracy": 0.0
+    },
+    "high": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.6-0.8",
+      "accuracy": 0.0
+    },
+    "very_high": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.8-1.0",
+      "accuracy": 0.0
+    }
+  },
+  "latency": {
+    "avg_summary_ms": 0.05,
+    "avg_inline_ms": 0.02,
+    "avg_total_ms": 0.07,
+    "min_total_ms": 0.03,
+    "max_total_ms": 1.73
+  },
+  "tokens": {
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0,
+    "avg_tokens_per_snippet": 0.0
+  },
+  "cost_estimate": {
+    "input_cost_usd": 0.0,
+    "output_cost_usd": 0.0,
+    "total_cost_usd": 0.0,
+    "cost_per_review_usd": 0.0
+  },
+  "category_breakdown": {
+    "sql_injection": {
+      "total": 7,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "path_traversal": {
+      "total": 5,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "xss": {
+      "total": 5,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "command_injection": {
+      "total": 6,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "auth_bypass": {
+      "total": 4,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "broken_access_control": {
+      "total": 6,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "insecure_deserialization": {
+      "total": 5,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "ssrf": {
+      "total": 6,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "hardcoded_secrets": {
+      "total": 5,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "unsafe_regex": {
+      "total": 4,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "weak_crypto": {
+      "total": 3,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "misconfiguration": {
+      "total": 1,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "information_disclosure": {
+      "total": 2,
+      "detected": 0,
+      "recall": 0.0
+    }
+  }
+}

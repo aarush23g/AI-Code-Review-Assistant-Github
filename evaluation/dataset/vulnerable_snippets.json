@@ -1,0 +1,533 @@
+[
+  {
+    "id": "sqli-001",
+    "code": "def get_user(username):\n    query = f\"SELECT * FROM users WHERE name = '{username}'\"\n    return db.execute(query).fetchone()",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "String interpolation in SQL query allows injection"
+  },
+  {
+    "id": "sqli-002",
+    "code": "def search_products(term):\n    sql = \"SELECT * FROM products WHERE name LIKE '%\" + term + \"%'\"\n    cursor.execute(sql)\n    return cursor.fetchall()",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "String concatenation in SQL query"
+  },
+  {
+    "id": "sqli-003",
+    "code": "def delete_order(order_id):\n    query = \"DELETE FROM orders WHERE id = %s\" % order_id\n    db.execute(query)",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Percent formatting in SQL allows injection"
+  },
+  {
+    "id": "sqli-004",
+    "code": "def authenticate(user, passwd):\n    q = f\"SELECT id FROM accounts WHERE user='{user}' AND pass='{passwd}'\"\n    row = conn.execute(q).fetchone()\n    return row is not None",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Auth bypass via SQL injection in login query"
+  },
+  {
+    "id": "sqli-005",
+    "code": "def get_orders_by_status(status):\n    return db.execute(\n        \"SELECT * FROM orders WHERE status = '\" + status + \"' ORDER BY created_at\"\n    ).fetchall()",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "Concatenated status filter allows injection"
+  },
+  {
+    "id": "sqli-006",
+    "code": "async def fetch_comments(post_id):\n    async with aiosqlite.connect(DB) as db:\n        rows = await db.execute(f\"SELECT * FROM comments WHERE post_id={post_id}\")\n        return await rows.fetchall()",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "f-string SQL in async context"
+  },
+  {
+    "id": "path-001",
+    "code": "def read_file(filename):\n    path = os.path.join('/uploads', filename)\n    with open(path) as f:\n        return f.read()",
+    "language": "python",
+    "vulnerability_type": "path_traversal",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "No sanitization of filename allows directory traversal via ../"
+  },
+  {
+    "id": "path-002",
+    "code": "def download(request):\n    filepath = request.args.get('file')\n    return send_file(f'/var/data/{filepath}')",
+    "language": "python",
+    "vulnerability_type": "path_traversal",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "User-controlled path in send_file"
+  },
+  {
+    "id": "path-003",
+    "code": "def serve_template(name):\n    template_path = os.path.join(TEMPLATE_DIR, name)\n    if not os.path.exists(template_path):\n        abort(404)\n    return open(template_path).read()",
+    "language": "python",
+    "vulnerability_type": "path_traversal",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Template name not validated against traversal"
+  },
+  {
+    "id": "path-004",
+    "code": "def delete_upload(filename):\n    target = Path('/uploads') / filename\n    target.unlink()\n    return {'deleted': filename}",
+    "language": "python",
+    "vulnerability_type": "path_traversal",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "Unsanitized filename in file deletion"
+  },
+  {
+    "id": "path-005",
+    "code": "def get_log(log_name):\n    log_path = f\"/var/log/app/{log_name}\"\n    with open(log_path, 'r') as f:\n        return f.read()",
+    "language": "python",
+    "vulnerability_type": "path_traversal",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Unvalidated log name allows reading arbitrary files"
+  },
+  {
+    "id": "xss-001",
+    "code": "def render_greeting(name):\n    return f'<h1>Hello, {name}!</h1>'",
+    "language": "python",
+    "vulnerability_type": "xss",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "User input rendered directly in HTML without escaping"
+  },
+  {
+    "id": "xss-002",
+    "code": "def search_results(query):\n    html = f'<p>Results for: {query}</p>'\n    results = do_search(query)\n    for r in results:\n        html += f'<li>{r[\"title\"]}</li>'\n    return html",
+    "language": "python",
+    "vulnerability_type": "xss",
+    "severity": "medium",
+    "vulnerable_lines": [2, 5],
+    "description": "Reflected XSS via unescaped search query and results"
+  },
+  {
+    "id": "xss-003",
+    "code": "@app.route('/profile')\ndef profile():\n    bio = get_user_bio(session['user_id'])\n    return f'<div class=\"bio\">{bio}</div>'",
+    "language": "python",
+    "vulnerability_type": "xss",
+    "severity": "medium",
+    "vulnerable_lines": [4],
+    "description": "Stored XSS via user bio rendered without escaping"
+  },
+  {
+    "id": "xss-004",
+    "code": "def error_page(message):\n    return '<html><body><p>Error: ' + message + '</p></body></html>'",
+    "language": "python",
+    "vulnerability_type": "xss",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "Error message concatenated into HTML"
+  },
+  {
+    "id": "xss-005",
+    "code": "def render_comment(comment):\n    return f'<div class=\"comment\"><strong>{comment[\"author\"]}</strong>: {comment[\"text\"]}</div>'",
+    "language": "python",
+    "vulnerability_type": "xss",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "Comment text rendered without HTML escaping"
+  },
+  {
+    "id": "cmdi-001",
+    "code": "def ping_host(host):\n    result = os.system(f'ping -c 4 {host}')\n    return result",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "User input in os.system command"
+  },
+  {
+    "id": "cmdi-002",
+    "code": "def convert_image(input_file, output_format):\n    cmd = f'convert {input_file} output.{output_format}'\n    subprocess.call(cmd, shell=True)",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "shell=True with user-controlled arguments"
+  },
+  {
+    "id": "cmdi-003",
+    "code": "def lookup_dns(domain):\n    output = subprocess.check_output(f'nslookup {domain}', shell=True)\n    return output.decode()",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "DNS lookup with shell injection via domain name"
+  },
+  {
+    "id": "cmdi-004",
+    "code": "def run_script(script_name):\n    os.popen(f'bash /scripts/{script_name}')\n    return 'Script started'",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "os.popen with user-controlled script name"
+  },
+  {
+    "id": "cmdi-005",
+    "code": "def git_log(repo_path):\n    result = subprocess.run(\n        'git log --oneline -10 ' + repo_path,\n        shell=True, capture_output=True\n    )\n    return result.stdout.decode()",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [3, 4],
+    "description": "shell=True with concatenated repo path"
+  },
+  {
+    "id": "cmdi-006",
+    "code": "def compress_files(directory):\n    os.system('tar czf backup.tar.gz ' + directory)\n    return 'Backup created'",
+    "language": "python",
+    "vulnerability_type": "command_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "os.system with user-controlled directory argument"
+  },
+  {
+    "id": "auth-001",
+    "code": "def is_admin(request):\n    return request.cookies.get('is_admin') == 'true'",
+    "language": "python",
+    "vulnerability_type": "auth_bypass",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Admin check relies on client-side cookie"
+  },
+  {
+    "id": "auth-002",
+    "code": "def verify_token(token):\n    try:\n        payload = jwt.decode(token, options={'verify_signature': False})\n        return payload\n    except jwt.DecodeError:\n        return None",
+    "language": "python",
+    "vulnerability_type": "auth_bypass",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "JWT decoded without signature verification"
+  },
+  {
+    "id": "auth-003",
+    "code": "def reset_password(request):\n    user_id = request.form['user_id']\n    new_password = request.form['password']\n    user = User.query.get(user_id)\n    user.password = hash_password(new_password)\n    db.session.commit()",
+    "language": "python",
+    "vulnerability_type": "auth_bypass",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Password reset without verifying requesting user owns the account"
+  },
+  {
+    "id": "auth-004",
+    "code": "def get_user_data(request):\n    user_id = request.args.get('user_id')\n    return jsonify(User.query.get(user_id).to_dict())",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "IDOR: any user can fetch another user's data"
+  },
+  {
+    "id": "auth-005",
+    "code": "@app.route('/admin/users')\ndef admin_users():\n    users = User.query.all()\n    return jsonify([u.to_dict() for u in users])",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [1, 2],
+    "description": "Admin endpoint with no authentication check"
+  },
+  {
+    "id": "auth-006",
+    "code": "def delete_post(request):\n    post_id = request.form['post_id']\n    post = Post.query.get(post_id)\n    db.session.delete(post)\n    db.session.commit()\n    return redirect('/posts')",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [2, 3, 4],
+    "description": "Delete without verifying post ownership"
+  },
+  {
+    "id": "deser-001",
+    "code": "def load_session(data):\n    return pickle.loads(base64.b64decode(data))",
+    "language": "python",
+    "vulnerability_type": "insecure_deserialization",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Deserializing untrusted pickle data enables RCE"
+  },
+  {
+    "id": "deser-002",
+    "code": "def restore_state(request):\n    state_data = request.form['state']\n    obj = yaml.load(state_data)\n    return process(obj)",
+    "language": "python",
+    "vulnerability_type": "insecure_deserialization",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "yaml.load without Loader allows arbitrary object creation"
+  },
+  {
+    "id": "deser-003",
+    "code": "def import_config(config_bytes):\n    config = marshal.loads(config_bytes)\n    return config",
+    "language": "python",
+    "vulnerability_type": "insecure_deserialization",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "marshal.loads on untrusted input can execute code"
+  },
+  {
+    "id": "deser-004",
+    "code": "import shelve\ndef load_cache(filename):\n    with shelve.open(filename) as db:\n        return dict(db)",
+    "language": "python",
+    "vulnerability_type": "insecure_deserialization",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "shelve uses pickle internally; opening untrusted file is dangerous"
+  },
+  {
+    "id": "deser-005",
+    "code": "def process_message(raw):\n    data = eval(raw)\n    return handle_event(data)",
+    "language": "python",
+    "vulnerability_type": "insecure_deserialization",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "eval() on untrusted input allows arbitrary code execution"
+  },
+  {
+    "id": "ssrf-001",
+    "code": "def fetch_url(request):\n    url = request.args.get('url')\n    response = requests.get(url)\n    return response.text",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "User-controlled URL fetched without validation"
+  },
+  {
+    "id": "ssrf-002",
+    "code": "def webhook_proxy(target_url):\n    resp = httpx.post(target_url, json={'event': 'ping'})\n    return resp.status_code",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Proxying to user-controlled URL without allowlist"
+  },
+  {
+    "id": "ssrf-003",
+    "code": "def check_health(service_url):\n    try:\n        r = urllib.request.urlopen(service_url)\n        return r.status == 200\n    except Exception:\n        return False",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "urlopen with user-supplied URL can access internal services"
+  },
+  {
+    "id": "ssrf-004",
+    "code": "async def preview_link(url: str):\n    async with aiohttp.ClientSession() as session:\n        async with session.get(url) as resp:\n            html = await resp.text()\n    return extract_meta_tags(html)",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [3],
+    "description": "Link preview fetches arbitrary URLs including internal"
+  },
+  {
+    "id": "ssrf-005",
+    "code": "def download_avatar(avatar_url):\n    img_data = requests.get(avatar_url).content\n    with open(f'/avatars/{uuid4()}.png', 'wb') as f:\n        f.write(img_data)\n    return 'Saved'",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "Fetching avatar from user URL without validation"
+  },
+  {
+    "id": "secret-001",
+    "code": "API_KEY = 'sk-proj-abc123def456ghi789'\nOPENAI_SECRET = 'sk-live-xxxxxxxxxxxxxxxxxxxxxxxx'\n\ndef call_api():\n    headers = {'Authorization': f'Bearer {API_KEY}'}\n    return requests.get('https://api.example.com/data', headers=headers)",
+    "language": "python",
+    "vulnerability_type": "hardcoded_secrets",
+    "severity": "high",
+    "vulnerable_lines": [1, 2],
+    "description": "API keys hardcoded in source code"
+  },
+  {
+    "id": "secret-002",
+    "code": "DATABASE_URL = 'postgresql://admin:SuperSecret123!@db.example.com:5432/production'\n\ndef get_connection():\n    return psycopg2.connect(DATABASE_URL)",
+    "language": "python",
+    "vulnerability_type": "hardcoded_secrets",
+    "severity": "high",
+    "vulnerable_lines": [1],
+    "description": "Database credentials hardcoded with password in connection string"
+  },
+  {
+    "id": "secret-003",
+    "code": "AWS_ACCESS_KEY_ID = 'AKIAIOSFODNN7EXAMPLE'\nAWS_SECRET_ACCESS_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'\n\ndef upload_to_s3(file):\n    s3 = boto3.client('s3',\n        aws_access_key_id=AWS_ACCESS_KEY_ID,\n        aws_secret_access_key=AWS_SECRET_ACCESS_KEY\n    )",
+    "language": "python",
+    "vulnerability_type": "hardcoded_secrets",
+    "severity": "high",
+    "vulnerable_lines": [1, 2],
+    "description": "AWS credentials hardcoded in source"
+  },
+  {
+    "id": "secret-004",
+    "code": "SMTP_PASSWORD = 'mailpass2024'\n\ndef send_email(to, subject, body):\n    server = smtplib.SMTP('smtp.gmail.com', 587)\n    server.login('app@example.com', SMTP_PASSWORD)\n    server.sendmail('app@example.com', to, body)",
+    "language": "python",
+    "vulnerability_type": "hardcoded_secrets",
+    "severity": "medium",
+    "vulnerable_lines": [1, 5],
+    "description": "SMTP password hardcoded in source"
+  },
+  {
+    "id": "secret-005",
+    "code": "JWT_SECRET = 'my-super-secret-jwt-key-do-not-share'\n\ndef create_token(user_id):\n    return jwt.encode({'sub': user_id}, JWT_SECRET, algorithm='HS256')",
+    "language": "python",
+    "vulnerability_type": "hardcoded_secrets",
+    "severity": "high",
+    "vulnerable_lines": [1],
+    "description": "JWT signing secret hardcoded"
+  },
+  {
+    "id": "regex-001",
+    "code": "import re\ndef validate_email(email):\n    pattern = r'^([a-zA-Z0-9]+)*@example\\.com$'\n    return bool(re.match(pattern, email))",
+    "language": "python",
+    "vulnerability_type": "unsafe_regex",
+    "severity": "medium",
+    "vulnerable_lines": [3],
+    "description": "Nested quantifier causes catastrophic backtracking (ReDoS)"
+  },
+  {
+    "id": "regex-002",
+    "code": "def check_input(text):\n    pattern = r'^(a+)+$'\n    if re.match(pattern, text):\n        return True\n    return False",
+    "language": "python",
+    "vulnerability_type": "unsafe_regex",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "Classic ReDoS pattern with nested quantifiers"
+  },
+  {
+    "id": "regex-003",
+    "code": "def validate_url(url):\n    pattern = r'^https?://([a-zA-Z0-9.-]+\\.)*[a-zA-Z]{2,}(/.*)*$'\n    return bool(re.match(pattern, url))",
+    "language": "python",
+    "vulnerability_type": "unsafe_regex",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "URL regex with nested quantifiers vulnerable to ReDoS"
+  },
+  {
+    "id": "regex-004",
+    "code": "def sanitize_html(text):\n    return re.sub(r'<(.*?)>', '', text)",
+    "language": "python",
+    "vulnerability_type": "unsafe_regex",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "Lazy quantifier in HTML stripping can be exploited"
+  },
+  {
+    "id": "bac-001",
+    "code": "def update_role(request):\n    user_id = request.json['user_id']\n    new_role = request.json['role']\n    user = User.query.get(user_id)\n    user.role = new_role\n    db.session.commit()",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [2, 3, 5],
+    "description": "Role escalation: no check that requester is authorized to change roles"
+  },
+  {
+    "id": "bac-002",
+    "code": "def view_invoice(invoice_id):\n    invoice = Invoice.query.get(invoice_id)\n    return jsonify(invoice.to_dict())",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "IDOR: any user can view any invoice without ownership check"
+  },
+  {
+    "id": "bac-003",
+    "code": "def transfer_funds(request):\n    from_account = request.json['from']\n    to_account = request.json['to']\n    amount = request.json['amount']\n    Account.transfer(from_account, to_account, amount)",
+    "language": "python",
+    "vulnerability_type": "broken_access_control",
+    "severity": "high",
+    "vulnerable_lines": [2, 5],
+    "description": "No verification that requester owns the from_account"
+  },
+  {
+    "id": "misc-001",
+    "code": "def hash_password(password):\n    return hashlib.md5(password.encode()).hexdigest()",
+    "language": "python",
+    "vulnerability_type": "weak_crypto",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "MD5 is cryptographically broken for password hashing"
+  },
+  {
+    "id": "misc-002",
+    "code": "def generate_token():\n    import random\n    return ''.join(random.choices('abcdef0123456789', k=32))",
+    "language": "python",
+    "vulnerability_type": "weak_crypto",
+    "severity": "medium",
+    "vulnerable_lines": [2, 3],
+    "description": "random module is not cryptographically secure for token generation"
+  },
+  {
+    "id": "misc-003",
+    "code": "def verify_password(stored, provided):\n    return stored == hashlib.sha256(provided.encode()).hexdigest()",
+    "language": "python",
+    "vulnerability_type": "weak_crypto",
+    "severity": "medium",
+    "vulnerable_lines": [2],
+    "description": "SHA256 without salt is vulnerable to rainbow table attacks"
+  },
+  {
+    "id": "misc-004",
+    "code": "DEBUG = True\napp = Flask(__name__)\napp.config['DEBUG'] = DEBUG\napp.config['SECRET_KEY'] = 'dev'",
+    "language": "python",
+    "vulnerability_type": "misconfiguration",
+    "severity": "medium",
+    "vulnerable_lines": [1, 3, 4],
+    "description": "Debug mode enabled and weak secret key in production"
+  },
+  {
+    "id": "misc-005",
+    "code": "def handle_error(e):\n    return jsonify({\n        'error': str(e),\n        'traceback': traceback.format_exc(),\n        'env': dict(os.environ)\n    }), 500",
+    "language": "python",
+    "vulnerability_type": "information_disclosure",
+    "severity": "high",
+    "vulnerable_lines": [4, 5],
+    "description": "Stack traces and environment variables leaked in error responses"
+  },
+  {
+    "id": "misc-006",
+    "code": "def login(username, password):\n    user = User.query.filter_by(username=username).first()\n    if user is None:\n        return {'error': 'User not found'}, 401\n    if not check_password(user.password_hash, password):\n        return {'error': 'Incorrect password'}, 401\n    return {'token': create_token(user.id)}",
+    "language": "python",
+    "vulnerability_type": "information_disclosure",
+    "severity": "low",
+    "vulnerable_lines": [4, 6],
+    "description": "Different error messages reveal whether username exists (user enumeration)"
+  },
+  {
+    "id": "sqli-007",
+    "code": "def update_email(user_id, new_email):\n    db.execute(f\"UPDATE users SET email='{new_email}' WHERE id={user_id}\")",
+    "language": "python",
+    "vulnerability_type": "sql_injection",
+    "severity": "high",
+    "vulnerable_lines": [2],
+    "description": "f-string in UPDATE query allows injection"
+  },
+  {
+    "id": "ssrf-006",
+    "code": "def import_data(request):\n    data_url = request.json['source_url']\n    response = requests.get(data_url, timeout=30)\n    records = response.json()\n    for r in records:\n        db.session.add(Record(**r))\n    db.session.commit()",
+    "language": "python",
+    "vulnerability_type": "ssrf",
+    "severity": "high",
+    "vulnerable_lines": [2, 3],
+    "description": "Importing data from user-controlled URL without validation"
+  },
+  {
+    "id": "auth-007",
+    "code": "def change_email(request):\n    token = request.headers.get('X-Reset-Token')\n    if token:\n        user_id = request.json['user_id']\n        new_email = request.json['email']\n        User.query.get(user_id).email = new_email\n        db.session.commit()",
+    "language": "python",
+    "vulnerability_type": "auth_bypass",
+    "severity": "high",
+    "vulnerable_lines": [3, 4],
+    "description": "Token presence checked but value never validated"
+  }
+]

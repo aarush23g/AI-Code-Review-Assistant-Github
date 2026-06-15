@@ -1,0 +1,3271 @@
+{
+  "run_id": "run_meta_llama-3.1-70b-instruct_20260614_092224",
+  "timestamp": "2026-06-14T09:22:24.847314+00:00",
+  "mode": "security",
+  "model": "meta_llama-3.1-70b-instruct",
+  "base_url": "simulated",
+  "dataset": {
+    "vulnerable_count": 59,
+    "safe_count": 25
+  },
+  "results": [
+    {
+      "snippet_id": "sqli-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 2442.16,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1328.22,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.83
+          }
+        ],
+        "latency_ms": 2658.85,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.83,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1370.27,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 2672.8,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1334.78,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.61
+          }
+        ],
+        "latency_ms": 2611.27,
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.61,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1661.09,
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.82
+          }
+        ],
+        "latency_ms": 2494.38,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 50,
+          "total_tokens": 189
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.82,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1346.39,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 50,
+          "total_tokens": 189
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.6
+          }
+        ],
+        "latency_ms": 2778.42,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 50,
+          "total_tokens": 199
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.6,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1331.3,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 50,
+          "total_tokens": 199
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 2917.47,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1272.82,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 2950.04,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1734.86,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78
+          }
+        ],
+        "latency_ms": 2897.21,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1646.19,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66
+          }
+        ],
+        "latency_ms": 2765.81,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1512.78,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.67
+          }
+        ],
+        "latency_ms": 2234.49,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.67,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1401.51,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2080.58,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 10,
+          "total_tokens": 126
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1290.5,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 10,
+          "total_tokens": 126
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "xss-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.64
+          }
+        ],
+        "latency_ms": 2407.6,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.64,
+            "line": 5
+          }
+        ],
+        "latency_ms": 1525.57,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.65
+          }
+        ],
+        "latency_ms": 2856.73,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.65,
+            "line": 4
+          }
+        ],
+        "latency_ms": 1659.36,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.6
+          }
+        ],
+        "latency_ms": 2853.45,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 50,
+          "total_tokens": 173
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.6,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1772.06,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 50,
+          "total_tokens": 173
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.79
+          }
+        ],
+        "latency_ms": 2488.23,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.79,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1363.76,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7
+          }
+        ],
+        "latency_ms": 2724.18,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1704.3,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2980.72,
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 10,
+          "total_tokens": 144
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1520.47,
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 10,
+          "total_tokens": 144
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2591.89,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1597.8,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 2050.28,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1427.46,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.68
+          }
+        ],
+        "latency_ms": 2278.26,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.68,
+            "line": 4
+          }
+        ],
+        "latency_ms": 1770.72,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.81
+          }
+        ],
+        "latency_ms": 2999.91,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.81,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1409.98,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.8
+          }
+        ],
+        "latency_ms": 2949.61,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 50,
+          "total_tokens": 168
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.8,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1319.62,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 50,
+          "total_tokens": 168
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64
+          }
+        ],
+        "latency_ms": 2563.97,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1330.78,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79
+          }
+        ],
+        "latency_ms": 2777.79,
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 50,
+          "total_tokens": 204
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1298.26,
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 50,
+          "total_tokens": 204
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74
+          }
+        ],
+        "latency_ms": 2575.8,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1744.82,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "auth-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 2101.9,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84,
+            "line": 1
+          }
+        ],
+        "latency_ms": 1663.49,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2600.41,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1272.63,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "deser-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2782.64,
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 10,
+          "total_tokens": 127
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1408.32,
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 10,
+          "total_tokens": 127
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "deser-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69
+          }
+        ],
+        "latency_ms": 2012.65,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1452.04,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 2707.31,
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 50,
+          "total_tokens": 172
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1461.29,
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 50,
+          "total_tokens": 172
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 2464.87,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1695.44,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.68
+          }
+        ],
+        "latency_ms": 2278.93,
+        "usage": {
+          "prompt_tokens": 119,
+          "completion_tokens": 50,
+          "total_tokens": 169
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.68,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1470.48,
+        "usage": {
+          "prompt_tokens": 119,
+          "completion_tokens": 50,
+          "total_tokens": 169
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74
+          }
+        ],
+        "latency_ms": 2028.7,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1710.57,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.65
+          }
+        ],
+        "latency_ms": 2279.66,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.65,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1557.69,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2555.79,
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 10,
+          "total_tokens": 150
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1509.98,
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 10,
+          "total_tokens": 150
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66
+          }
+        ],
+        "latency_ms": 2690.61,
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 50,
+          "total_tokens": 200
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1587.54,
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 50,
+          "total_tokens": 200
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.8
+          }
+        ],
+        "latency_ms": 2404.4,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.8,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1345.98,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69
+          }
+        ],
+        "latency_ms": 2425.5,
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 50,
+          "total_tokens": 208
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1647.56,
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 50,
+          "total_tokens": 208
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78
+          }
+        ],
+        "latency_ms": 2230.54,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78,
+            "line": 1
+          }
+        ],
+        "latency_ms": 1632.77,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79
+          }
+        ],
+        "latency_ms": 2690.16,
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 50,
+          "total_tokens": 216
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1314.92,
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 50,
+          "total_tokens": 216
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "secret-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.67
+          }
+        ],
+        "latency_ms": 2980.51,
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 50,
+          "total_tokens": 203
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.67,
+            "line": 5
+          }
+        ],
+        "latency_ms": 1699.58,
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 50,
+          "total_tokens": 203
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69
+          }
+        ],
+        "latency_ms": 2274.31,
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 50,
+          "total_tokens": 187
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.69,
+            "line": 1
+          }
+        ],
+        "latency_ms": 1784.58,
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 50,
+          "total_tokens": 187
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 2102.59,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1207.36,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 2252.48,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1717.03,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.62
+          }
+        ],
+        "latency_ms": 2151.73,
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 50,
+          "total_tokens": 182
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.62,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1686.69,
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 50,
+          "total_tokens": 182
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2085.18,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 10,
+          "total_tokens": 126
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1348.91,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 10,
+          "total_tokens": 126
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "bac-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7
+          }
+        ],
+        "latency_ms": 2225.69,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7,
+            "line": 5
+          }
+        ],
+        "latency_ms": 1513.54,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "bac-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 2305.38,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1572.62,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "bac-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79
+          }
+        ],
+        "latency_ms": 2207.79,
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 50,
+          "total_tokens": 198
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.79,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1326.62,
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 50,
+          "total_tokens": 198
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "misc-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64
+          }
+        ],
+        "latency_ms": 2156.53,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1445.11,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 2706.96,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1621.79,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 2787.83,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1575.03,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "misc-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "misconfiguration",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.83
+          }
+        ],
+        "latency_ms": 2224.81,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 50,
+          "total_tokens": 173
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.83,
+            "line": 4
+          }
+        ],
+        "latency_ms": 1289.39,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 50,
+          "total_tokens": 173
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "high",
+      "expected_lines": [
+        4,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64
+          }
+        ],
+        "latency_ms": 2595.04,
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 50,
+          "total_tokens": 188
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.64,
+            "line": 5
+          }
+        ],
+        "latency_ms": 1694.54,
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 50,
+          "total_tokens": 188
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "low",
+      "expected_lines": [
+        4,
+        6
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2439.15,
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 10,
+          "total_tokens": 187
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1481.22,
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 10,
+          "total_tokens": 187
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "sqli-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7
+          }
+        ],
+        "latency_ms": 2437.76,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7,
+            "line": 2
+          }
+        ],
+        "latency_ms": 1558.82,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2734.53,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1562.23,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "auth-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66
+          }
+        ],
+        "latency_ms": 2999.57,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 50,
+          "total_tokens": 212
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.66,
+            "line": 3
+          }
+        ],
+        "latency_ms": 1603.37,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 50,
+          "total_tokens": 212
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "safe-001",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2040.23,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1653.76,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-002",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2651.51,
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 10,
+          "total_tokens": 145
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1749.64,
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 10,
+          "total_tokens": 145
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-003",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2585.33,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1580.87,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-004",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2091.24,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1408.78,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-005",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2670.13,
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 10,
+          "total_tokens": 165
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1714.64,
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 10,
+          "total_tokens": 165
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-006",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2693.67,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1372.93,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-007",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2813.57,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 10,
+          "total_tokens": 123
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1530.06,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 10,
+          "total_tokens": 123
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-008",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2314.52,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1393.96,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-009",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2404.18,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 10,
+          "total_tokens": 128
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1508.76,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 10,
+          "total_tokens": 128
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-010",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2657.66,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1525.56,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-011",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2187.58,
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 10,
+          "total_tokens": 166
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1417.07,
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 10,
+          "total_tokens": 166
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-012",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2625.41,
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 10,
+          "total_tokens": 162
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1655.99,
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 10,
+          "total_tokens": 162
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-013",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2549.22,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1756.6,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-014",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2698.25,
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 10,
+          "total_tokens": 143
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1272.86,
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 10,
+          "total_tokens": 143
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-015",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2608.87,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1343.58,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-016",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2550.84,
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 10,
+          "total_tokens": 174
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1531.35,
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 10,
+          "total_tokens": 174
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-017",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.85
+          }
+        ],
+        "latency_ms": 2461.45,
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 50,
+          "total_tokens": 201
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.85,
+            "line": 1
+          }
+        ],
+        "latency_ms": 1270.48,
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 50,
+          "total_tokens": 201
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-018",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2498.38,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 10,
+          "total_tokens": 159
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1629.96,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 10,
+          "total_tokens": 159
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-019",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2273.42,
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 10,
+          "total_tokens": 185
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1700.83,
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 10,
+          "total_tokens": 185
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-020",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2243.73,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1530.76,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-021",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2921.87,
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 10,
+          "total_tokens": 153
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1504.94,
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 10,
+          "total_tokens": 153
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-022",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2864.03,
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 10,
+          "total_tokens": 182
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1365.75,
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 10,
+          "total_tokens": 182
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-023",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2414.94,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1760.55,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-024",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2820.55,
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 10,
+          "total_tokens": 175
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1369.7,
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 10,
+          "total_tokens": 175
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-025",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 2586.94,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "meta_llama-3.1-70b-instruct"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 1799.34,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    }
+  ]
+}

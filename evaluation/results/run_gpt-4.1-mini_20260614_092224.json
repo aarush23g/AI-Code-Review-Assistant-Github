@@ -1,0 +1,3256 @@
+{
+  "run_id": "run_gpt-4.1-mini_20260614_092224",
+  "timestamp": "2026-06-14T09:22:24.835404+00:00",
+  "mode": "security",
+  "model": "gpt-4.1-mini",
+  "base_url": "simulated",
+  "dataset": {
+    "vulnerable_count": 59,
+    "safe_count": 25
+  },
+  "results": [
+    {
+      "snippet_id": "sqli-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 1069.77,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 2
+          }
+        ],
+        "latency_ms": 641.0,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 1014.9,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84,
+            "line": 2
+          }
+        ],
+        "latency_ms": 687.46,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 1110.22,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 2
+          }
+        ],
+        "latency_ms": 835.71,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7
+          }
+        ],
+        "latency_ms": 1170.13,
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7,
+            "line": 2
+          }
+        ],
+        "latency_ms": 662.19,
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1168.3,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 637.1,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "sqli-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91
+          }
+        ],
+        "latency_ms": 1364.87,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 50,
+          "total_tokens": 199
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91,
+            "line": 3
+          }
+        ],
+        "latency_ms": 814.49,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 50,
+          "total_tokens": 199
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1189.27,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 820.82,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "path-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85
+          }
+        ],
+        "latency_ms": 1352.29,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85,
+            "line": 3
+          }
+        ],
+        "latency_ms": 618.33,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 1433.24,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77,
+            "line": 2
+          }
+        ],
+        "latency_ms": 752.05,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91
+          }
+        ],
+        "latency_ms": 1104.75,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91,
+            "line": 3
+          }
+        ],
+        "latency_ms": 706.79,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "path-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1324.02,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 843.65,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "xss-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.88
+          }
+        ],
+        "latency_ms": 1134.97,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 50,
+          "total_tokens": 166
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.88,
+            "line": 2
+          }
+        ],
+        "latency_ms": 970.16,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 50,
+          "total_tokens": 166
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 1114.52,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.75,
+            "line": 2
+          }
+        ],
+        "latency_ms": 612.84,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 1106.31,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77,
+            "line": 4
+          }
+        ],
+        "latency_ms": 799.69,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "xss-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1321.43,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 10,
+          "total_tokens": 133
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 657.15,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 10,
+          "total_tokens": 133
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "xss-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.89
+          }
+        ],
+        "latency_ms": 1448.91,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.89,
+            "line": 2
+          }
+        ],
+        "latency_ms": 759.76,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.95
+          }
+        ],
+        "latency_ms": 1377.89,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.95,
+            "line": 2
+          }
+        ],
+        "latency_ms": 944.44,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 50,
+          "total_tokens": 170
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74
+          }
+        ],
+        "latency_ms": 1192.38,
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 50,
+          "total_tokens": 184
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74,
+            "line": 2
+          }
+        ],
+        "latency_ms": 838.36,
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 50,
+          "total_tokens": 184
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.76
+          }
+        ],
+        "latency_ms": 1340.14,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.76,
+            "line": 2
+          }
+        ],
+        "latency_ms": 645.82,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1375.44,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 907.44,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 1476.91,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.77,
+            "line": 3
+          }
+        ],
+        "latency_ms": 950.34,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "cmdi-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.83
+          }
+        ],
+        "latency_ms": 1435.26,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.83,
+            "line": 2
+          }
+        ],
+        "latency_ms": 719.38,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 50,
+          "total_tokens": 177
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85
+          }
+        ],
+        "latency_ms": 1269.69,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 50,
+          "total_tokens": 168
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85,
+            "line": 2
+          }
+        ],
+        "latency_ms": 911.45,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 50,
+          "total_tokens": 168
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7
+          }
+        ],
+        "latency_ms": 1055.93,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.7,
+            "line": 3
+          }
+        ],
+        "latency_ms": 745.19,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 50,
+          "total_tokens": 194
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1403.39,
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 10,
+          "total_tokens": 164
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 695.78,
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 10,
+          "total_tokens": 164
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "auth-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 1408.01,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.84,
+            "line": 3
+          }
+        ],
+        "latency_ms": 991.19,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.73
+          }
+        ],
+        "latency_ms": 1132.53,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.73,
+            "line": 1
+          }
+        ],
+        "latency_ms": 948.97,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 1344.93,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75,
+            "line": 4
+          }
+        ],
+        "latency_ms": 885.18,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.87
+          }
+        ],
+        "latency_ms": 1060.5,
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 50,
+          "total_tokens": 167
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.87,
+            "line": 2
+          }
+        ],
+        "latency_ms": 689.88,
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 50,
+          "total_tokens": 167
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85
+          }
+        ],
+        "latency_ms": 1003.6,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.85,
+            "line": 3
+          }
+        ],
+        "latency_ms": 883.14,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 50,
+          "total_tokens": 180
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 1035.43,
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 50,
+          "total_tokens": 172
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72,
+            "line": 2
+          }
+        ],
+        "latency_ms": 695.2,
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 50,
+          "total_tokens": 172
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 1121.5,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75,
+            "line": 3
+          }
+        ],
+        "latency_ms": 789.19,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "deser-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 1211.79,
+        "usage": {
+          "prompt_tokens": 119,
+          "completion_tokens": 50,
+          "total_tokens": 169
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72,
+            "line": 2
+          }
+        ],
+        "latency_ms": 786.81,
+        "usage": {
+          "prompt_tokens": 119,
+          "completion_tokens": 50,
+          "total_tokens": 169
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.87
+          }
+        ],
+        "latency_ms": 1049.21,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.87,
+            "line": 3
+          }
+        ],
+        "latency_ms": 761.05,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.92
+          }
+        ],
+        "latency_ms": 1268.14,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.92,
+            "line": 2
+          }
+        ],
+        "latency_ms": 656.07,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.82
+          }
+        ],
+        "latency_ms": 1221.57,
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 50,
+          "total_tokens": 190
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.82,
+            "line": 3
+          }
+        ],
+        "latency_ms": 944.54,
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 50,
+          "total_tokens": 190
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 1418.01,
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 50,
+          "total_tokens": 200
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 4
+          }
+        ],
+        "latency_ms": 987.6,
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 50,
+          "total_tokens": 200
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1424.35,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 10,
+          "total_tokens": 154
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 666.52,
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 10,
+          "total_tokens": 154
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "secret-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 1082.32,
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 50,
+          "total_tokens": 208
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.75,
+            "line": 1
+          }
+        ],
+        "latency_ms": 600.86,
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 50,
+          "total_tokens": 208
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.93
+          }
+        ],
+        "latency_ms": 1211.5,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.93,
+            "line": 1
+          }
+        ],
+        "latency_ms": 982.93,
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 50,
+          "total_tokens": 186
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "secret-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1277.88,
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 10,
+          "total_tokens": 176
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 887.36,
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 10,
+          "total_tokens": 176
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "secret-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 1289.59,
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 50,
+          "total_tokens": 203
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77,
+            "line": 2
+          }
+        ],
+        "latency_ms": 816.88,
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 50,
+          "total_tokens": 203
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "secret-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 1028.44,
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 50,
+          "total_tokens": 187
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 1
+          }
+        ],
+        "latency_ms": 803.13,
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 50,
+          "total_tokens": 187
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 1201.89,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.72,
+            "line": 3
+          }
+        ],
+        "latency_ms": 976.64,
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 50,
+          "total_tokens": 181
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 1209.61,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.84,
+            "line": 2
+          }
+        ],
+        "latency_ms": 833.47,
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 50,
+          "total_tokens": 179
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.93
+          }
+        ],
+        "latency_ms": 1119.34,
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 50,
+          "total_tokens": 182
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.93,
+            "line": 2
+          }
+        ],
+        "latency_ms": 758.31,
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 50,
+          "total_tokens": 182
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "regex-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77
+          }
+        ],
+        "latency_ms": 1004.66,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 50,
+          "total_tokens": 166
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.77,
+            "line": 2
+          }
+        ],
+        "latency_ms": 848.46,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 50,
+          "total_tokens": 166
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "bac-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72
+          }
+        ],
+        "latency_ms": 1132.6,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.72,
+            "line": 5
+          }
+        ],
+        "latency_ms": 973.3,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 50,
+          "total_tokens": 195
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "bac-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1439.64,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 747.81,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "bac-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91
+          }
+        ],
+        "latency_ms": 1333.93,
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 50,
+          "total_tokens": 198
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.91,
+            "line": 2
+          }
+        ],
+        "latency_ms": 821.84,
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 50,
+          "total_tokens": 198
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1051.79,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 10,
+          "total_tokens": 130
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 951.25,
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 10,
+          "total_tokens": 130
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "misc-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.92
+          }
+        ],
+        "latency_ms": 1136.17,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.92,
+            "line": 2
+          }
+        ],
+        "latency_ms": 841.93,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 50,
+          "total_tokens": 175
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.75
+          }
+        ],
+        "latency_ms": 1252.7,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "medium",
+            "confidence": 0.75,
+            "line": 2
+          }
+        ],
+        "latency_ms": 700.45,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 50,
+          "total_tokens": 176
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "misconfiguration",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1025.4,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 10,
+          "total_tokens": 133
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 853.71,
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 10,
+          "total_tokens": 133
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "misc-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "high",
+      "expected_lines": [
+        4,
+        5
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71
+          }
+        ],
+        "latency_ms": 1318.56,
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 50,
+          "total_tokens": 188
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.71,
+            "line": 4
+          }
+        ],
+        "latency_ms": 704.78,
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 50,
+          "total_tokens": 188
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "misc-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "low",
+      "expected_lines": [
+        4,
+        6
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "low",
+            "confidence": 0.84
+          }
+        ],
+        "latency_ms": 1055.94,
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 50,
+          "total_tokens": 227
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "low",
+            "confidence": 0.84,
+            "line": 4
+          }
+        ],
+        "latency_ms": 978.02,
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 50,
+          "total_tokens": 227
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "sqli-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74
+          }
+        ],
+        "latency_ms": 1291.25,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.74,
+            "line": 2
+          }
+        ],
+        "latency_ms": 659.24,
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 50,
+          "total_tokens": 178
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "ssrf-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78
+          }
+        ],
+        "latency_ms": 1449.46,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 50,
+          "total_tokens": 207
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.78,
+            "line": 2
+          }
+        ],
+        "latency_ms": 684.03,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 50,
+          "total_tokens": 207
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "auth-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.73
+          }
+        ],
+        "latency_ms": 1486.92,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 50,
+          "total_tokens": 212
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "high",
+            "confidence": 0.73,
+            "line": 4
+          }
+        ],
+        "latency_ms": 899.79,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 50,
+          "total_tokens": 212
+        },
+        "finding_count": 1,
+        "line_accuracy": 1.0
+      }
+    },
+    {
+      "snippet_id": "safe-001",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1118.37,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 665.0,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-002",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1088.53,
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 10,
+          "total_tokens": 145
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 764.92,
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 10,
+          "total_tokens": 145
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-003",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1462.24,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 912.95,
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 10,
+          "total_tokens": 167
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-004",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1334.95,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 894.02,
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 10,
+          "total_tokens": 136
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-005",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1079.6,
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 10,
+          "total_tokens": 165
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 880.51,
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 10,
+          "total_tokens": 165
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-006",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1019.36,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 788.28,
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 10,
+          "total_tokens": 155
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-007",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1459.23,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 10,
+          "total_tokens": 123
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 739.86,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 10,
+          "total_tokens": 123
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-008",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1435.66,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 689.17,
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 10,
+          "total_tokens": 137
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-009",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1199.23,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 10,
+          "total_tokens": 128
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 711.44,
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 10,
+          "total_tokens": 128
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-010",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1386.66,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 740.46,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-011",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1339.76,
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 10,
+          "total_tokens": 166
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 937.46,
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 10,
+          "total_tokens": 166
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-012",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1013.8,
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 10,
+          "total_tokens": 162
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 950.82,
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 10,
+          "total_tokens": 162
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-013",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1290.29,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 993.42,
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 10,
+          "total_tokens": 172
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-014",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.85
+          }
+        ],
+        "latency_ms": 1364.27,
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 50,
+          "total_tokens": 183
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.85,
+            "line": 2
+          }
+        ],
+        "latency_ms": 725.47,
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 50,
+          "total_tokens": 183
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-015",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1255.71,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 754.08,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-016",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1127.36,
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 10,
+          "total_tokens": 174
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 883.51,
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 10,
+          "total_tokens": 174
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-017",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.93
+          }
+        ],
+        "latency_ms": 1343.43,
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 50,
+          "total_tokens": 201
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [
+          {
+            "title": "Simulated Issue",
+            "description": "Simulated description of the finding.",
+            "severity": "Low",
+            "confidence": 0.93,
+            "line": 5
+          }
+        ],
+        "latency_ms": 976.11,
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 50,
+          "total_tokens": 201
+        },
+        "finding_count": 1,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-018",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1098.52,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 10,
+          "total_tokens": 159
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 772.52,
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 10,
+          "total_tokens": 159
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-019",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1460.39,
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 10,
+          "total_tokens": 185
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 849.26,
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 10,
+          "total_tokens": 185
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-020",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1062.31,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 960.02,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 10,
+          "total_tokens": 149
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-021",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1333.45,
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 10,
+          "total_tokens": 153
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 730.47,
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 10,
+          "total_tokens": 153
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-022",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1277.21,
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 10,
+          "total_tokens": 182
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 676.74,
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 10,
+          "total_tokens": 182
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-023",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1189.57,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 899.25,
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 10,
+          "total_tokens": 135
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-024",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1284.55,
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 10,
+          "total_tokens": 175
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 762.43,
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 10,
+          "total_tokens": 175
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    },
+    {
+      "snippet_id": "safe-025",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "found_issues": [],
+        "latency_ms": 1151.94,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "model": "gpt-4.1-mini"
+      },
+      "inline": {
+        "findings": [],
+        "latency_ms": 684.07,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 10,
+          "total_tokens": 140
+        },
+        "finding_count": 0,
+        "line_accuracy": 0.0
+      }
+    }
+  ]
+}

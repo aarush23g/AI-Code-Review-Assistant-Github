@@ -17,7 +17,9 @@ class Settings(BaseSettings):
     github_client_secret: str = "replace_me"
 
     openai_api_key: str = "replace_me"
+    openai_base_url: str | None = None
     openai_model: str = "gpt-4.1-mini"
+    use_mock_llm: bool = False
 
     redis_url: str = "redis://localhost:6379/0"
     review_metrics_db_path: str = "data/review_metrics.sqlite3"

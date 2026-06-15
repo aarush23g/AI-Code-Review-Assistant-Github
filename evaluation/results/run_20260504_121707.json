@@ -1,0 +1,1413 @@
+{
+  "run_id": "run_20260504_121707",
+  "timestamp": "2026-05-04T12:17:07.648210+00:00",
+  "mode": "security",
+  "model": "deepseek-ai/deepseek-v4-flash",
+  "dataset": {
+    "vulnerable_count": 59,
+    "safe_count": 25
+  },
+  "results": [
+    {
+      "snippet_id": "sqli-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 1.72
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "sqli-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "sqli-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.03
+      }
+    },
+    {
+      "snippet_id": "sqli-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "sqli-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "sqli-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "path-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "path-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "path-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "path-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "path-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "path_traversal",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "xss-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "xss-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "xss-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        4
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "xss-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "xss-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "xss",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "cmdi-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "cmdi-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "cmdi-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "cmdi-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "cmdi-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "cmdi-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "command_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        4
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "deser-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "deser-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "deser-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "deser-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "deser-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "insecure_deserialization",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "ssrf-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "ssrf-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "ssrf-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "ssrf-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "ssrf-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "secret-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "secret-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "secret-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1,
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "secret-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        5
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.03
+      }
+    },
+    {
+      "snippet_id": "secret-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "hardcoded_secrets",
+      "expected_severity": "high",
+      "expected_lines": [
+        1
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "regex-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "regex-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "regex-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "regex-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "unsafe_regex",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "bac-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3,
+        5
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "bac-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "bac-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "broken_access_control",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        5
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "misc-001",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "misc-002",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "misc-003",
+      "is_vulnerable": true,
+      "vulnerability_type": "weak_crypto",
+      "expected_severity": "medium",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "misc-004",
+      "is_vulnerable": true,
+      "vulnerability_type": "misconfiguration",
+      "expected_severity": "medium",
+      "expected_lines": [
+        1,
+        3,
+        4
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.04
+      }
+    },
+    {
+      "snippet_id": "misc-005",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "high",
+      "expected_lines": [
+        4,
+        5
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "misc-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "information_disclosure",
+      "expected_severity": "low",
+      "expected_lines": [
+        4,
+        6
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "sqli-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "sql_injection",
+      "expected_severity": "high",
+      "expected_lines": [
+        2
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "ssrf-006",
+      "is_vulnerable": true,
+      "vulnerability_type": "ssrf",
+      "expected_severity": "high",
+      "expected_lines": [
+        2,
+        3
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "auth-007",
+      "is_vulnerable": true,
+      "vulnerability_type": "auth_bypass",
+      "expected_severity": "high",
+      "expected_lines": [
+        3,
+        4
+      ],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-001",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-002",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-003",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.04
+      }
+    },
+    {
+      "snippet_id": "safe-004",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-005",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-006",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-007",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-008",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-009",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-010",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.05
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-011",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-012",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-013",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.02
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-014",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-015",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-016",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-017",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-018",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-019",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-020",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-021",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.01
+      }
+    },
+    {
+      "snippet_id": "safe-022",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.04
+      }
+    },
+    {
+      "snippet_id": "safe-023",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-024",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.04
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    },
+    {
+      "snippet_id": "safe-025",
+      "is_vulnerable": false,
+      "vulnerability_type": null,
+      "expected_severity": null,
+      "expected_lines": [],
+      "summary": {
+        "error": "build_pr_summary_review_prompt() got an unexpected keyword argument 'review_chunks'",
+        "latency_ms": 0.03
+      },
+      "inline": {
+        "error": "build_inline_findings_prompt() got an unexpected keyword argument 'chunk'",
+        "latency_ms": 0.02
+      }
+    }
+  ]
+}

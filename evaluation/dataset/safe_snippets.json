@@ -1,0 +1,152 @@
+[
+  {
+    "id": "safe-001",
+    "code": "def get_user(username):\n    return db.execute('SELECT * FROM users WHERE name = ?', (username,)).fetchone()",
+    "language": "python",
+    "description": "Parameterized SQL query"
+  },
+  {
+    "id": "safe-002",
+    "code": "def search_products(term):\n    return db.execute(\n        'SELECT * FROM products WHERE name LIKE ?',\n        (f'%{term}%',)\n    ).fetchall()",
+    "language": "python",
+    "description": "Parameterized LIKE query"
+  },
+  {
+    "id": "safe-003",
+    "code": "def read_file(filename):\n    safe_name = os.path.basename(filename)\n    path = os.path.join('/uploads', safe_name)\n    if not os.path.isfile(path):\n        raise FileNotFoundError\n    with open(path) as f:\n        return f.read()",
+    "language": "python",
+    "description": "Path traversal prevented with basename"
+  },
+  {
+    "id": "safe-004",
+    "code": "def render_greeting(name):\n    from markupsafe import escape\n    return f'<h1>Hello, {escape(name)}!</h1>'",
+    "language": "python",
+    "description": "XSS prevented with HTML escaping"
+  },
+  {
+    "id": "safe-005",
+    "code": "def ping_host(host):\n    if not re.match(r'^[a-zA-Z0-9.-]+$', host):\n        raise ValueError('Invalid hostname')\n    result = subprocess.run(['ping', '-c', '4', host], capture_output=True)\n    return result.stdout.decode()",
+    "language": "python",
+    "description": "Command injection prevented with input validation and list args"
+  },
+  {
+    "id": "safe-006",
+    "code": "def verify_token(token):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])\n        return payload\n    except jwt.InvalidTokenError:\n        return None",
+    "language": "python",
+    "description": "JWT decoded with signature verification"
+  },
+  {
+    "id": "safe-007",
+    "code": "def load_config(data):\n    return yaml.safe_load(data)",
+    "language": "python",
+    "description": "Safe YAML loading prevents arbitrary object creation"
+  },
+  {
+    "id": "safe-008",
+    "code": "def hash_password(password):\n    import bcrypt\n    return bcrypt.hashpw(password.encode(), bcrypt.gensalt())",
+    "language": "python",
+    "description": "Secure password hashing with bcrypt"
+  },
+  {
+    "id": "safe-009",
+    "code": "def generate_token():\n    import secrets\n    return secrets.token_hex(32)",
+    "language": "python",
+    "description": "Cryptographically secure token generation"
+  },
+  {
+    "id": "safe-010",
+    "code": "API_KEY = os.environ.get('API_KEY')\n\ndef call_api():\n    if not API_KEY:\n        raise RuntimeError('API_KEY not configured')\n    headers = {'Authorization': f'Bearer {API_KEY}'}\n    return requests.get('https://api.example.com/data', headers=headers)",
+    "language": "python",
+    "description": "API key loaded from environment variable"
+  },
+  {
+    "id": "safe-011",
+    "code": "def get_user_data(request, current_user):\n    user_id = request.args.get('user_id')\n    if str(current_user.id) != user_id and not current_user.is_admin:\n        abort(403)\n    return jsonify(User.query.get(user_id).to_dict())",
+    "language": "python",
+    "description": "Access control check before returning user data"
+  },
+  {
+    "id": "safe-012",
+    "code": "def delete_post(request, current_user):\n    post = Post.query.get_or_404(request.form['post_id'])\n    if post.author_id != current_user.id:\n        abort(403)\n    db.session.delete(post)\n    db.session.commit()",
+    "language": "python",
+    "description": "Ownership verified before deletion"
+  },
+  {
+    "id": "safe-013",
+    "code": "ALLOWED_HOSTS = {'api.github.com', 'api.gitlab.com'}\n\ndef fetch_url(url):\n    parsed = urllib.parse.urlparse(url)\n    if parsed.hostname not in ALLOWED_HOSTS:\n        raise ValueError('Host not allowed')\n    return requests.get(url, timeout=10).text",
+    "language": "python",
+    "description": "SSRF prevented with hostname allowlist"
+  },
+  {
+    "id": "safe-014",
+    "code": "def validate_email(email):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    return bool(re.match(pattern, email))",
+    "language": "python",
+    "description": "Safe email regex without nested quantifiers"
+  },
+  {
+    "id": "safe-015",
+    "code": "def handle_error(e):\n    logger.exception('Unhandled error')\n    return jsonify({'error': 'Internal server error'}), 500",
+    "language": "python",
+    "description": "Error handler logs details server-side, returns generic message"
+  },
+  {
+    "id": "safe-016",
+    "code": "def login(username, password):\n    user = User.query.filter_by(username=username).first()\n    if user is None or not check_password(user.password_hash, password):\n        return {'error': 'Invalid credentials'}, 401\n    return {'token': create_token(user.id)}",
+    "language": "python",
+    "description": "Generic error message prevents user enumeration"
+  },
+  {
+    "id": "safe-017",
+    "code": "def download(filename):\n    safe_path = os.path.realpath(os.path.join(UPLOAD_DIR, filename))\n    if not safe_path.startswith(os.path.realpath(UPLOAD_DIR)):\n        abort(403)\n    return send_file(safe_path)",
+    "language": "python",
+    "description": "Path traversal prevented with realpath validation"
+  },
+  {
+    "id": "safe-018",
+    "code": "async def get_user(user_id: int):\n    async with aiosqlite.connect(DB) as db:\n        cursor = await db.execute('SELECT * FROM users WHERE id = ?', (user_id,))\n        return await cursor.fetchone()",
+    "language": "python",
+    "description": "Async parameterized SQL query"
+  },
+  {
+    "id": "safe-019",
+    "code": "def convert_image(input_file, output_format):\n    allowed_formats = {'png', 'jpg', 'gif', 'webp'}\n    if output_format not in allowed_formats:\n        raise ValueError('Unsupported format')\n    safe_input = shlex.quote(input_file)\n    subprocess.run(['convert', safe_input, f'output.{output_format}'])",
+    "language": "python",
+    "description": "Input validated and shell quoting used"
+  },
+  {
+    "id": "safe-020",
+    "code": "app = Flask(__name__)\napp.config.from_object('config.ProductionConfig')\napp.config['SECRET_KEY'] = os.environ['FLASK_SECRET_KEY']\napp.config['DEBUG'] = False",
+    "language": "python",
+    "description": "Production config with env-sourced secret and debug disabled"
+  },
+  {
+    "id": "safe-021",
+    "code": "def process_data(raw_json):\n    data = json.loads(raw_json)\n    if not isinstance(data, dict):\n        raise ValueError('Expected JSON object')\n    return handle_event(data)",
+    "language": "python",
+    "description": "Safe JSON parsing instead of eval"
+  },
+  {
+    "id": "safe-022",
+    "code": "def update_role(request, current_user):\n    if not current_user.is_admin:\n        abort(403)\n    user_id = request.json['user_id']\n    new_role = request.json['role']\n    if new_role not in ALLOWED_ROLES:\n        abort(400)\n    User.query.get(user_id).role = new_role\n    db.session.commit()",
+    "language": "python",
+    "description": "Role update with admin check and role validation"
+  },
+  {
+    "id": "safe-023",
+    "code": "def verify_password(stored_hash, provided):\n    return bcrypt.checkpw(provided.encode(), stored_hash)",
+    "language": "python",
+    "description": "Constant-time bcrypt comparison"
+  },
+  {
+    "id": "safe-024",
+    "code": "def reset_password(request, current_user):\n    user_id = request.form['user_id']\n    if str(current_user.id) != user_id:\n        abort(403)\n    new_password = request.form['password']\n    current_user.password = hash_password(new_password)\n    db.session.commit()",
+    "language": "python",
+    "description": "Password reset with ownership verification"
+  },
+  {
+    "id": "safe-025",
+    "code": "DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:///dev.db')\n\ndef get_engine():\n    return create_engine(DATABASE_URL)",
+    "language": "python",
+    "description": "Database URL from environment with safe fallback"
+  }
+]

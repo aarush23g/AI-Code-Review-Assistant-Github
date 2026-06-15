@@ -1,0 +1,132 @@
+{
+  "run_id": "run_gpt-4.1-mini_20260614_092224",
+  "model": "gpt-4.1-mini",
+  "mode": "security",
+  "dataset_size": {
+    "vulnerable": 59,
+    "safe": 25
+  },
+  "classification": {
+    "true_positives": 48,
+    "false_negatives": 11,
+    "false_positives": 2,
+    "true_negatives": 23
+  },
+  "detection_rate_recall": 0.8136,
+  "false_positive_rate": 0.08,
+  "precision": 0.96,
+  "f1_score": 0.8807,
+  "avg_line_accuracy": 0.7627,
+  "confidence_calibration": {
+    "low": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.0-0.3",
+      "accuracy": 0.0
+    },
+    "medium": {
+      "total": 0,
+      "correct": 0,
+      "range": "0.3-0.6",
+      "accuracy": 0.0
+    },
+    "high": {
+      "total": 27,
+      "correct": 27,
+      "range": "0.6-0.8",
+      "accuracy": 1.0
+    },
+    "very_high": {
+      "total": 23,
+      "correct": 21,
+      "range": "0.8-1.0",
+      "accuracy": 0.9130434782608695
+    }
+  },
+  "latency": {
+    "avg_summary_ms": 1233.7,
+    "avg_inline_ms": 803.92,
+    "avg_total_ms": 2037.61,
+    "min_total_ms": 1683.18,
+    "max_total_ms": 2427.25
+  },
+  "tokens": {
+    "total_prompt_tokens": 23154,
+    "total_completion_tokens": 5680,
+    "total_tokens": 28834,
+    "avg_tokens_per_snippet": 343.3
+  },
+  "cost_estimate": {
+    "input_cost_usd": 0.0093,
+    "output_cost_usd": 0.0091,
+    "total_cost_usd": 0.0183,
+    "cost_per_review_usd": 0.000218
+  },
+  "category_breakdown": {
+    "sql_injection": {
+      "total": 7,
+      "detected": 6,
+      "recall": 0.8571428571428571
+    },
+    "path_traversal": {
+      "total": 5,
+      "detected": 3,
+      "recall": 0.6
+    },
+    "xss": {
+      "total": 5,
+      "detected": 4,
+      "recall": 0.8
+    },
+    "command_injection": {
+      "total": 6,
+      "detected": 5,
+      "recall": 0.8333333333333334
+    },
+    "auth_bypass": {
+      "total": 4,
+      "detected": 3,
+      "recall": 0.75
+    },
+    "broken_access_control": {
+      "total": 6,
+      "detected": 5,
+      "recall": 0.8333333333333334
+    },
+    "insecure_deserialization": {
+      "total": 5,
+      "detected": 5,
+      "recall": 1.0
+    },
+    "ssrf": {
+      "total": 6,
+      "detected": 5,
+      "recall": 0.8333333333333334
+    },
+    "hardcoded_secrets": {
+      "total": 5,
+      "detected": 4,
+      "recall": 0.8
+    },
+    "unsafe_regex": {
+      "total": 4,
+      "detected": 4,
+      "recall": 1.0
+    },
+    "weak_crypto": {
+      "total": 3,
+      "detected": 2,
+      "recall": 0.6666666666666666
+    },
+    "misconfiguration": {
+      "total": 1,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "information_disclosure": {
+      "total": 2,
+      "detected": 2,
+      "recall": 1.0
+    }
+  }
+}

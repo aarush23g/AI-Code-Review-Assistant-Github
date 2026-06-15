@@ -1,0 +1,47 @@
+# Version control
+.git
+.gitattributes
+
+# Environment & secrets
+.env
+*.pem
+*.key
+
+# Data
+data/
+*.db
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Virtual environment
+.venv
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Testing & development
+tests/
+notebooks/
+evaluation/
+dashboard/
+docs/
+
+# Development dependencies
+requirements-dev.txt
+
+# Docker
+docker-compose.yml
+
+# Misc
+*.md
+!README.md
+LICENSE
+CONTRIBUTING.md
