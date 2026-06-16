@@ -4,10 +4,11 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
+import typing
+
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-import typing
 from matplotlib.projections.polar import PolarAxes
 
 RESULTS_DIR = Path(__file__).parent / "results"
