@@ -7,6 +7,7 @@ review quality, and model performance.
 Usage:
     streamlit run dashboard/app.py
 """
+
 import sys
 from pathlib import Path
 
@@ -23,12 +24,12 @@ if str(root_path) not in [str(Path(p).resolve()) for p in sys.path]:
 if "app" in sys.modules:
     del sys.modules["app"]
 
-import json
-import sqlite3
+import json  # noqa: E402
+import sqlite3  # noqa: E402
 
-import streamlit as st
+import streamlit as st  # noqa: E402
 
-from app.core.config import get_settings
+from app.core.config import get_settings  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Page config

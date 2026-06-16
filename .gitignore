@@ -11,6 +11,7 @@ venv/
 
 # Environment files
 .env
+.env.*
 
 # IDE
 .vscode/
@@ -26,40 +27,7 @@ Thumbs.db
 .ruff_cache/
 .coverage
 htmlcov/
-
-# Logs
-*.log
-
-# Build
-dist/
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-
-# Virtual env
-.venv/
-venv/
-
-# Environment files
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Test / cache
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
+temp_test_clone/
 
 # Logs
 *.log
@@ -72,16 +40,15 @@ build/
 # Docker
 *.pid
 
-.env
-.env.*
-.venv/
-__pycache__/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
+# Data and Secrets
 data/
 *.sqlite3
 *.pem
 *.key
 secrets/
 credentials/
+
+# Debugging and Testing Utilities
+scripts/
+docs/sample_webhook_payload.json
+tests/

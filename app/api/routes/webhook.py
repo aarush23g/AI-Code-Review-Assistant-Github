@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 SUPPORTED_PR_ACTIONS = {"opened", "reopened", "synchronize"}
 
+
 async def process_background_review(payload: PullRequestWebhookPayload) -> None:
     review_service = ReviewService()
     review_start = perf_counter()
@@ -24,13 +25,13 @@ async def process_background_review(payload: PullRequestWebhookPayload) -> None:
             pull_number=payload.pull_request.number,
             installation_id=payload.installation.id,
         )
-    except Exception as exc:
+    except Exception:
         logger.exception("Failed to fetch PR context from GitHub")
         return
 
     try:
         review_result = await review_service.generate_pr_summary_review(pr_context)
-    except Exception as exc:
+    except Exception:
         logger.exception("Failed to generate AI review")
         return
 
@@ -68,7 +69,7 @@ async def process_background_review(payload: PullRequestWebhookPayload) -> None:
             publish_result["status"],
             review_result["strategy"],
         )
-    except Exception as exc:
+    except Exception:
         logger.exception("Failed to publish review comment to GitHub")
         return
 
@@ -101,7 +102,9 @@ async def process_background_review(payload: PullRequestWebhookPayload) -> None:
         logger.exception("Failed during inline review generation/publishing")
 
 
-@router.post("/github", response_model=WebhookAckResponse, status_code=status.HTTP_202_ACCEPTED)
+@router.post(
+    "/github", response_model=WebhookAckResponse, status_code=status.HTTP_202_ACCEPTED
+)
 async def github_webhook(
     request: Request,
     background_tasks: BackgroundTasks,
